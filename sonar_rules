@@ -1,0 +1,4741 @@
+<rules>
+  <rule>
+    <key>-W-clang-compiler</key>
+    <name>-W</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-W#pragma-messages-clang-compiler</key>
+    <name>-W#pragma-messages</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-W#warnings-clang-compiler</key>
+    <name>-W#warnings</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-WCFString-literal-clang-compiler</key>
+    <name>-WCFString-literal</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-WCL4-clang-compiler</key>
+    <name>-WCL4</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-WIndependentClass-attribute-clang-compiler</key>
+    <name>-WIndependentClass-attribute</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-WNSObject-attribute-clang-compiler</key>
+    <name>-WNSObject-attribute</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wabi-clang-compiler</key>
+    <name>-Wabi</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wabsolute-value-clang-compiler</key>
+    <name>-Wabsolute-value</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wabstract-final-class-clang-compiler</key>
+    <name>-Wabstract-final-class</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wabstract-vbase-init-clang-compiler</key>
+    <name>-Wabstract-vbase-init</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Waddress-clang-compiler</key>
+    <name>-Waddress</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Waddress-of-array-temporary-clang-compiler</key>
+    <name>-Waddress-of-array-temporary</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Waddress-of-packed-member-clang-compiler</key>
+    <name>-Waddress-of-packed-member</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Waddress-of-temporary-clang-compiler</key>
+    <name>-Waddress-of-temporary</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Waggregate-return-clang-compiler</key>
+    <name>-Waggregate-return</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wall-clang-compiler</key>
+    <name>-Wall</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Walloca-with-align-alignof-clang-compiler</key>
+    <name>-Walloca-with-align-alignof</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wambiguous-delete-clang-compiler</key>
+    <name>-Wambiguous-delete</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wambiguous-ellipsis-clang-compiler</key>
+    <name>-Wambiguous-ellipsis</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wambiguous-macro-clang-compiler</key>
+    <name>-Wambiguous-macro</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wambiguous-member-template-clang-compiler</key>
+    <name>-Wambiguous-member-template</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wanalyzer-incompatible-plugin-clang-compiler</key>
+    <name>-Wanalyzer-incompatible-plugin</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wanonymous-pack-parens-clang-compiler</key>
+    <name>-Wanonymous-pack-parens</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Warc-clang-compiler</key>
+    <name>-Warc</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Warc-bridge-casts-disallowed-in-nonarc-clang-compiler</key>
+    <name>-Warc-bridge-casts-disallowed-in-nonarc</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Warc-maybe-repeated-use-of-weak-clang-compiler</key>
+    <name>-Warc-maybe-repeated-use-of-weak</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Warc-non-pod-memaccess-clang-compiler</key>
+    <name>-Warc-non-pod-memaccess</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Warc-performSelector-leaks-clang-compiler</key>
+    <name>-Warc-performSelector-leaks</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Warc-repeated-use-of-weak-clang-compiler</key>
+    <name>-Warc-repeated-use-of-weak</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Warc-retain-cycles-clang-compiler</key>
+    <name>-Warc-retain-cycles</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Warc-unsafe-retained-assign-clang-compiler</key>
+    <name>-Warc-unsafe-retained-assign</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Warray-bounds-clang-compiler</key>
+    <name>-Warray-bounds</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Warray-bounds-pointer-arithmetic-clang-compiler</key>
+    <name>-Warray-bounds-pointer-arithmetic</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wasm-clang-compiler</key>
+    <name>-Wasm</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wasm-ignored-qualifier-clang-compiler</key>
+    <name>-Wasm-ignored-qualifier</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wasm-operand-widths-clang-compiler</key>
+    <name>-Wasm-operand-widths</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wassign-enum-clang-compiler</key>
+    <name>-Wassign-enum</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wassume-clang-compiler</key>
+    <name>-Wassume</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wat-protocol-clang-compiler</key>
+    <name>-Wat-protocol</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Watomic-memory-ordering-clang-compiler</key>
+    <name>-Watomic-memory-ordering</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Watomic-properties-clang-compiler</key>
+    <name>-Watomic-properties</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Watomic-property-with-user-defined-accessor-clang-compiler</key>
+    <name>-Watomic-property-with-user-defined-accessor</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wattribute-packed-for-bitfield-clang-compiler</key>
+    <name>-Wattribute-packed-for-bitfield</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wattributes-clang-compiler</key>
+    <name>-Wattributes</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wauto-disable-vptr-sanitizer-clang-compiler</key>
+    <name>-Wauto-disable-vptr-sanitizer</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wauto-import-clang-compiler</key>
+    <name>-Wauto-import</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wauto-storage-class-clang-compiler</key>
+    <name>-Wauto-storage-class</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wauto-var-id-clang-compiler</key>
+    <name>-Wauto-var-id</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wavailability-clang-compiler</key>
+    <name>-Wavailability</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wbackend-plugin-clang-compiler</key>
+    <name>-Wbackend-plugin</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wbackslash-newline-escape-clang-compiler</key>
+    <name>-Wbackslash-newline-escape</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wbad-function-cast-clang-compiler</key>
+    <name>-Wbad-function-cast</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wbind-to-temporary-copy-clang-compiler</key>
+    <name>-Wbind-to-temporary-copy</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wbitfield-constant-conversion-clang-compiler</key>
+    <name>-Wbitfield-constant-conversion</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wbitfield-enum-conversion-clang-compiler</key>
+    <name>-Wbitfield-enum-conversion</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wbitfield-width-clang-compiler</key>
+    <name>-Wbitfield-width</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wbitwise-op-parentheses-clang-compiler</key>
+    <name>-Wbitwise-op-parentheses</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wblock-capture-autoreleasing-clang-compiler</key>
+    <name>-Wblock-capture-autoreleasing</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wbool-conversion-clang-compiler</key>
+    <name>-Wbool-conversion</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wbool-conversions-clang-compiler</key>
+    <name>-Wbool-conversions</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wbraced-scalar-init-clang-compiler</key>
+    <name>-Wbraced-scalar-init</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wbridge-cast-clang-compiler</key>
+    <name>-Wbridge-cast</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wbuiltin-macro-redefined-clang-compiler</key>
+    <name>-Wbuiltin-macro-redefined</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wbuiltin-memcpy-chk-size-clang-compiler</key>
+    <name>-Wbuiltin-memcpy-chk-size</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wbuiltin-requires-header-clang-compiler</key>
+    <name>-Wbuiltin-requires-header</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++-compat-clang-compiler</key>
+    <name>-Wc++-compat</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++0x-compat-clang-compiler</key>
+    <name>-Wc++0x-compat</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++0x-extensions-clang-compiler</key>
+    <name>-Wc++0x-extensions</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++0x-narrowing-clang-compiler</key>
+    <name>-Wc++0x-narrowing</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++11-compat-clang-compiler</key>
+    <name>-Wc++11-compat</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++11-compat-deprecated-writable-strings-clang-compiler</key>
+    <name>-Wc++11-compat-deprecated-writable-strings</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++11-compat-pedantic-clang-compiler</key>
+    <name>-Wc++11-compat-pedantic</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++11-compat-reserved-user-defined-literal-clang-compiler</key>
+    <name>-Wc++11-compat-reserved-user-defined-literal</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++11-extensions-clang-compiler</key>
+    <name>-Wc++11-extensions</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++11-extra-semi-clang-compiler</key>
+    <name>-Wc++11-extra-semi</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++11-inline-namespace-clang-compiler</key>
+    <name>-Wc++11-inline-namespace</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++11-long-long-clang-compiler</key>
+    <name>-Wc++11-long-long</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++11-narrowing-clang-compiler</key>
+    <name>-Wc++11-narrowing</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++14-binary-literal-clang-compiler</key>
+    <name>-Wc++14-binary-literal</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++14-compat-clang-compiler</key>
+    <name>-Wc++14-compat</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++14-compat-pedantic-clang-compiler</key>
+    <name>-Wc++14-compat-pedantic</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++14-extensions-clang-compiler</key>
+    <name>-Wc++14-extensions</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++1y-extensions-clang-compiler</key>
+    <name>-Wc++1y-extensions</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++1z-compat-clang-compiler</key>
+    <name>-Wc++1z-compat</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++1z-extensions-clang-compiler</key>
+    <name>-Wc++1z-extensions</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++98-c++11-c++14-compat-clang-compiler</key>
+    <name>-Wc++98-c++11-c++14-compat</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++98-c++11-c++14-compat-pedantic-clang-compiler</key>
+    <name>-Wc++98-c++11-c++14-compat-pedantic</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++98-c++11-compat-clang-compiler</key>
+    <name>-Wc++98-c++11-compat</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++98-c++11-compat-pedantic-clang-compiler</key>
+    <name>-Wc++98-c++11-compat-pedantic</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++98-compat-clang-compiler</key>
+    <name>-Wc++98-compat</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++98-compat-bind-to-temporary-copy-clang-compiler</key>
+    <name>-Wc++98-compat-bind-to-temporary-copy</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++98-compat-local-type-template-args-clang-compiler</key>
+    <name>-Wc++98-compat-local-type-template-args</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++98-compat-pedantic-clang-compiler</key>
+    <name>-Wc++98-compat-pedantic</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc++98-compat-unnamed-type-template-args-clang-compiler</key>
+    <name>-Wc++98-compat-unnamed-type-template-args</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc11-extensions-clang-compiler</key>
+    <name>-Wc11-extensions</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc99-compat-clang-compiler</key>
+    <name>-Wc99-compat</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wc99-extensions-clang-compiler</key>
+    <name>-Wc99-extensions</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wcast-align-clang-compiler</key>
+    <name>-Wcast-align</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wcast-calling-convention-clang-compiler</key>
+    <name>-Wcast-calling-convention</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wcast-of-sel-type-clang-compiler</key>
+    <name>-Wcast-of-sel-type</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wcast-qual-clang-compiler</key>
+    <name>-Wcast-qual</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wchar-align-clang-compiler</key>
+    <name>-Wchar-align</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wchar-subscripts-clang-compiler</key>
+    <name>-Wchar-subscripts</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wclang-cl-pch-clang-compiler</key>
+    <name>-Wclang-cl-pch</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wclass-varargs-clang-compiler</key>
+    <name>-Wclass-varargs</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wcomma-clang-compiler</key>
+    <name>-Wcomma</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wcomment-clang-compiler</key>
+    <name>-Wcomment</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wcomments-clang-compiler</key>
+    <name>-Wcomments</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wcompare-distinct-pointer-types-clang-compiler</key>
+    <name>-Wcompare-distinct-pointer-types</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wcomplex-component-init-clang-compiler</key>
+    <name>-Wcomplex-component-init</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wconditional-type-mismatch-clang-compiler</key>
+    <name>-Wconditional-type-mismatch</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wconditional-uninitialized-clang-compiler</key>
+    <name>-Wconditional-uninitialized</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wconfig-macros-clang-compiler</key>
+    <name>-Wconfig-macros</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wconstant-conversion-clang-compiler</key>
+    <name>-Wconstant-conversion</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wconstant-logical-operand-clang-compiler</key>
+    <name>-Wconstant-logical-operand</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wconstexpr-not-const-clang-compiler</key>
+    <name>-Wconstexpr-not-const</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wconsumed-clang-compiler</key>
+    <name>-Wconsumed</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wconversion-clang-compiler</key>
+    <name>-Wconversion</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wconversion-null-clang-compiler</key>
+    <name>-Wconversion-null</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wcoroutine-clang-compiler</key>
+    <name>-Wcoroutine</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wcovered-switch-default-clang-compiler</key>
+    <name>-Wcovered-switch-default</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wcstring-format-directive-clang-compiler</key>
+    <name>-Wcstring-format-directive</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wctor-dtor-privacy-clang-compiler</key>
+    <name>-Wctor-dtor-privacy</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wcuda-compat-clang-compiler</key>
+    <name>-Wcuda-compat</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wcustom-atomic-properties-clang-compiler</key>
+    <name>-Wcustom-atomic-properties</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdangling-else-clang-compiler</key>
+    <name>-Wdangling-else</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdangling-field-clang-compiler</key>
+    <name>-Wdangling-field</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdangling-initializer-list-clang-compiler</key>
+    <name>-Wdangling-initializer-list</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdate-time-clang-compiler</key>
+    <name>-Wdate-time</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdealloc-in-category-clang-compiler</key>
+    <name>-Wdealloc-in-category</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdebug-compression-unavailable-clang-compiler</key>
+    <name>-Wdebug-compression-unavailable</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdeclaration-after-statement-clang-compiler</key>
+    <name>-Wdeclaration-after-statement</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdelegating-ctor-cycles-clang-compiler</key>
+    <name>-Wdelegating-ctor-cycles</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdelete-incomplete-clang-compiler</key>
+    <name>-Wdelete-incomplete</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdelete-non-virtual-dtor-clang-compiler</key>
+    <name>-Wdelete-non-virtual-dtor</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdeprecated-clang-compiler</key>
+    <name>-Wdeprecated</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdeprecated-attributes-clang-compiler</key>
+    <name>-Wdeprecated-attributes</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdeprecated-declarations-clang-compiler</key>
+    <name>-Wdeprecated-declarations</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdeprecated-dynamic-exception-spec-clang-compiler</key>
+    <name>-Wdeprecated-dynamic-exception-spec</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdeprecated-implementations-clang-compiler</key>
+    <name>-Wdeprecated-implementations</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdeprecated-increment-bool-clang-compiler</key>
+    <name>-Wdeprecated-increment-bool</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdeprecated-objc-isa-usage-clang-compiler</key>
+    <name>-Wdeprecated-objc-isa-usage</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdeprecated-objc-pointer-introspection-clang-compiler</key>
+    <name>-Wdeprecated-objc-pointer-introspection</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdeprecated-objc-pointer-introspection-performSelector-clang-compiler</key>
+    <name>-Wdeprecated-objc-pointer-introspection-performSelector</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdeprecated-register-clang-compiler</key>
+    <name>-Wdeprecated-register</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdeprecated-writable-strings-clang-compiler</key>
+    <name>-Wdeprecated-writable-strings</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdirect-ivar-access-clang-compiler</key>
+    <name>-Wdirect-ivar-access</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdisabled-macro-expansion-clang-compiler</key>
+    <name>-Wdisabled-macro-expansion</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdisabled-optimization-clang-compiler</key>
+    <name>-Wdisabled-optimization</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdiscard-qual-clang-compiler</key>
+    <name>-Wdiscard-qual</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdistributed-object-modifiers-clang-compiler</key>
+    <name>-Wdistributed-object-modifiers</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdiv-by-zero-clang-compiler</key>
+    <name>-Wdiv-by-zero</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdivision-by-zero-clang-compiler</key>
+    <name>-Wdivision-by-zero</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdll-attribute-on-redeclaration-clang-compiler</key>
+    <name>-Wdll-attribute-on-redeclaration</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdllexport-explicit-instantiation-decl-clang-compiler</key>
+    <name>-Wdllexport-explicit-instantiation-decl</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdllimport-static-field-def-clang-compiler</key>
+    <name>-Wdllimport-static-field-def</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdocumentation-clang-compiler</key>
+    <name>-Wdocumentation</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdocumentation-deprecated-sync-clang-compiler</key>
+    <name>-Wdocumentation-deprecated-sync</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdocumentation-html-clang-compiler</key>
+    <name>-Wdocumentation-html</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdocumentation-pedantic-clang-compiler</key>
+    <name>-Wdocumentation-pedantic</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdocumentation-unknown-command-clang-compiler</key>
+    <name>-Wdocumentation-unknown-command</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdollar-in-identifier-extension-clang-compiler</key>
+    <name>-Wdollar-in-identifier-extension</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdouble-promotion-clang-compiler</key>
+    <name>-Wdouble-promotion</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wduplicate-decl-specifier-clang-compiler</key>
+    <name>-Wduplicate-decl-specifier</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wduplicate-enum-clang-compiler</key>
+    <name>-Wduplicate-enum</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wduplicate-method-arg-clang-compiler</key>
+    <name>-Wduplicate-method-arg</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wduplicate-method-match-clang-compiler</key>
+    <name>-Wduplicate-method-match</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wduplicate-protocol-clang-compiler</key>
+    <name>-Wduplicate-protocol</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdynamic-class-memaccess-clang-compiler</key>
+    <name>-Wdynamic-class-memaccess</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wdynamic-exception-spec-clang-compiler</key>
+    <name>-Wdynamic-exception-spec</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Weffc++-clang-compiler</key>
+    <name>-Weffc++</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wembedded-directive-clang-compiler</key>
+    <name>-Wembedded-directive</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wempty-body-clang-compiler</key>
+    <name>-Wempty-body</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wempty-decomposition-clang-compiler</key>
+    <name>-Wempty-decomposition</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wempty-translation-unit-clang-compiler</key>
+    <name>-Wempty-translation-unit</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wencode-type-clang-compiler</key>
+    <name>-Wencode-type</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wendif-labels-clang-compiler</key>
+    <name>-Wendif-labels</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wenum-compare-clang-compiler</key>
+    <name>-Wenum-compare</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wenum-conversion-clang-compiler</key>
+    <name>-Wenum-conversion</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wenum-too-large-clang-compiler</key>
+    <name>-Wenum-too-large</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wexceptions-clang-compiler</key>
+    <name>-Wexceptions</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wexit-time-destructors-clang-compiler</key>
+    <name>-Wexit-time-destructors</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wexpansion-to-defined-clang-compiler</key>
+    <name>-Wexpansion-to-defined</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wexplicit-initialize-call-clang-compiler</key>
+    <name>-Wexplicit-initialize-call</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wexplicit-ownership-type-clang-compiler</key>
+    <name>-Wexplicit-ownership-type</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wextended-offsetof-clang-compiler</key>
+    <name>-Wextended-offsetof</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wextern-c-compat-clang-compiler</key>
+    <name>-Wextern-c-compat</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wextern-initializer-clang-compiler</key>
+    <name>-Wextern-initializer</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wextra-clang-compiler</key>
+    <name>-Wextra</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wextra-qualification-clang-compiler</key>
+    <name>-Wextra-qualification</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wextra-semi-clang-compiler</key>
+    <name>-Wextra-semi</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wextra-tokens-clang-compiler</key>
+    <name>-Wextra-tokens</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wfallback-clang-compiler</key>
+    <name>-Wfallback</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wflag-enum-clang-compiler</key>
+    <name>-Wflag-enum</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wflexible-array-extensions-clang-compiler</key>
+    <name>-Wflexible-array-extensions</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wfloat-conversion-clang-compiler</key>
+    <name>-Wfloat-conversion</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wfloat-equal-clang-compiler</key>
+    <name>-Wfloat-equal</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wfloat-overflow-conversion-clang-compiler</key>
+    <name>-Wfloat-overflow-conversion</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wfloat-zero-conversion-clang-compiler</key>
+    <name>-Wfloat-zero-conversion</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wfor-loop-analysis-clang-compiler</key>
+    <name>-Wfor-loop-analysis</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wformat-clang-compiler</key>
+    <name>-Wformat</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wformat-extra-args-clang-compiler</key>
+    <name>-Wformat-extra-args</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wformat-invalid-specifier-clang-compiler</key>
+    <name>-Wformat-invalid-specifier</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wformat-non-iso-clang-compiler</key>
+    <name>-Wformat-non-iso</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wformat-nonliteral-clang-compiler</key>
+    <name>-Wformat-nonliteral</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wformat-pedantic-clang-compiler</key>
+    <name>-Wformat-pedantic</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wformat-security-clang-compiler</key>
+    <name>-Wformat-security</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wformat-y2k-clang-compiler</key>
+    <name>-Wformat-y2k</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wformat-zero-length-clang-compiler</key>
+    <name>-Wformat-zero-length</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wformat=2-clang-compiler</key>
+    <name>-Wformat=2</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wfour-char-constants-clang-compiler</key>
+    <name>-Wfour-char-constants</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wframe-larger-than=-clang-compiler</key>
+    <name>-Wframe-larger-than=</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wfunction-def-in-objc-container-clang-compiler</key>
+    <name>-Wfunction-def-in-objc-container</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wfuture-compat-clang-compiler</key>
+    <name>-Wfuture-compat</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgcc-compat-clang-compiler</key>
+    <name>-Wgcc-compat</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wglobal-constructors-clang-compiler</key>
+    <name>-Wglobal-constructors</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-clang-compiler</key>
+    <name>-Wgnu</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-alignof-expression-clang-compiler</key>
+    <name>-Wgnu-alignof-expression</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-anonymous-struct-clang-compiler</key>
+    <name>-Wgnu-anonymous-struct</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-array-member-paren-init-clang-compiler</key>
+    <name>-Wgnu-array-member-paren-init</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-auto-type-clang-compiler</key>
+    <name>-Wgnu-auto-type</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-binary-literal-clang-compiler</key>
+    <name>-Wgnu-binary-literal</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-case-range-clang-compiler</key>
+    <name>-Wgnu-case-range</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-complex-integer-clang-compiler</key>
+    <name>-Wgnu-complex-integer</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-compound-literal-initializer-clang-compiler</key>
+    <name>-Wgnu-compound-literal-initializer</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-conditional-omitted-operand-clang-compiler</key>
+    <name>-Wgnu-conditional-omitted-operand</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-designator-clang-compiler</key>
+    <name>-Wgnu-designator</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-empty-initializer-clang-compiler</key>
+    <name>-Wgnu-empty-initializer</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-empty-struct-clang-compiler</key>
+    <name>-Wgnu-empty-struct</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-flexible-array-initializer-clang-compiler</key>
+    <name>-Wgnu-flexible-array-initializer</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-flexible-array-union-member-clang-compiler</key>
+    <name>-Wgnu-flexible-array-union-member</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-folding-constant-clang-compiler</key>
+    <name>-Wgnu-folding-constant</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-imaginary-constant-clang-compiler</key>
+    <name>-Wgnu-imaginary-constant</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-include-next-clang-compiler</key>
+    <name>-Wgnu-include-next</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-label-as-value-clang-compiler</key>
+    <name>-Wgnu-label-as-value</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-redeclared-enum-clang-compiler</key>
+    <name>-Wgnu-redeclared-enum</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-statement-expression-clang-compiler</key>
+    <name>-Wgnu-statement-expression</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-static-float-init-clang-compiler</key>
+    <name>-Wgnu-static-float-init</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-string-literal-operator-template-clang-compiler</key>
+    <name>-Wgnu-string-literal-operator-template</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-union-cast-clang-compiler</key>
+    <name>-Wgnu-union-cast</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-variable-sized-type-not-at-end-clang-compiler</key>
+    <name>-Wgnu-variable-sized-type-not-at-end</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-zero-line-directive-clang-compiler</key>
+    <name>-Wgnu-zero-line-directive</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wgnu-zero-variadic-macro-arguments-clang-compiler</key>
+    <name>-Wgnu-zero-variadic-macro-arguments</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wheader-guard-clang-compiler</key>
+    <name>-Wheader-guard</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wheader-hygiene-clang-compiler</key>
+    <name>-Wheader-hygiene</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Widiomatic-parentheses-clang-compiler</key>
+    <name>-Widiomatic-parentheses</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wignored-attributes-clang-compiler</key>
+    <name>-Wignored-attributes</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wignored-optimization-argument-clang-compiler</key>
+    <name>-Wignored-optimization-argument</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wignored-pragma-intrinsic-clang-compiler</key>
+    <name>-Wignored-pragma-intrinsic</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wignored-pragmas-clang-compiler</key>
+    <name>-Wignored-pragmas</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wignored-qualifiers-clang-compiler</key>
+    <name>-Wignored-qualifiers</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wimplicit-clang-compiler</key>
+    <name>-Wimplicit</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wimplicit-atomic-properties-clang-compiler</key>
+    <name>-Wimplicit-atomic-properties</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wimplicit-conversion-floating-point-to-bool-clang-compiler</key>
+    <name>-Wimplicit-conversion-floating-point-to-bool</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wimplicit-exception-spec-mismatch-clang-compiler</key>
+    <name>-Wimplicit-exception-spec-mismatch</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wimplicit-fallthrough-clang-compiler</key>
+    <name>-Wimplicit-fallthrough</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wimplicit-fallthrough-per-function-clang-compiler</key>
+    <name>-Wimplicit-fallthrough-per-function</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wimplicit-function-declaration-clang-compiler</key>
+    <name>-Wimplicit-function-declaration</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wimplicit-int-clang-compiler</key>
+    <name>-Wimplicit-int</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wimplicit-retain-self-clang-compiler</key>
+    <name>-Wimplicit-retain-self</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wimplicitly-unsigned-literal-clang-compiler</key>
+    <name>-Wimplicitly-unsigned-literal</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wimport-clang-compiler</key>
+    <name>-Wimport</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wimport-preprocessor-directive-pedantic-clang-compiler</key>
+    <name>-Wimport-preprocessor-directive-pedantic</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winaccessible-base-clang-compiler</key>
+    <name>-Winaccessible-base</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winclude-next-absolute-path-clang-compiler</key>
+    <name>-Winclude-next-absolute-path</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winclude-next-outside-header-clang-compiler</key>
+    <name>-Winclude-next-outside-header</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wincompatible-exception-spec-clang-compiler</key>
+    <name>-Wincompatible-exception-spec</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wincompatible-function-pointer-types-clang-compiler</key>
+    <name>-Wincompatible-function-pointer-types</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wincompatible-library-redeclaration-clang-compiler</key>
+    <name>-Wincompatible-library-redeclaration</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wincompatible-ms-struct-clang-compiler</key>
+    <name>-Wincompatible-ms-struct</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wincompatible-pointer-types-clang-compiler</key>
+    <name>-Wincompatible-pointer-types</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wincompatible-pointer-types-discards-qualifiers-clang-compiler</key>
+    <name>-Wincompatible-pointer-types-discards-qualifiers</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wincompatible-property-type-clang-compiler</key>
+    <name>-Wincompatible-property-type</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wincompatible-sysroot-clang-compiler</key>
+    <name>-Wincompatible-sysroot</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wincomplete-implementation-clang-compiler</key>
+    <name>-Wincomplete-implementation</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wincomplete-module-clang-compiler</key>
+    <name>-Wincomplete-module</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wincomplete-umbrella-clang-compiler</key>
+    <name>-Wincomplete-umbrella</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winconsistent-dllimport-clang-compiler</key>
+    <name>-Winconsistent-dllimport</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winconsistent-missing-destructor-override-clang-compiler</key>
+    <name>-Winconsistent-missing-destructor-override</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winconsistent-missing-override-clang-compiler</key>
+    <name>-Winconsistent-missing-override</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wincrement-bool-clang-compiler</key>
+    <name>-Wincrement-bool</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winfinite-recursion-clang-compiler</key>
+    <name>-Winfinite-recursion</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winit-self-clang-compiler</key>
+    <name>-Winit-self</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winitializer-overrides-clang-compiler</key>
+    <name>-Winitializer-overrides</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winjected-class-name-clang-compiler</key>
+    <name>-Winjected-class-name</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winline-clang-compiler</key>
+    <name>-Winline</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winline-asm-clang-compiler</key>
+    <name>-Winline-asm</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winline-new-delete-clang-compiler</key>
+    <name>-Winline-new-delete</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winstantiation-after-specialization-clang-compiler</key>
+    <name>-Winstantiation-after-specialization</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wint-conversion-clang-compiler</key>
+    <name>-Wint-conversion</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wint-conversions-clang-compiler</key>
+    <name>-Wint-conversions</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wint-to-pointer-cast-clang-compiler</key>
+    <name>-Wint-to-pointer-cast</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wint-to-void-pointer-cast-clang-compiler</key>
+    <name>-Wint-to-void-pointer-cast</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winteger-overflow-clang-compiler</key>
+    <name>-Winteger-overflow</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winvalid-command-line-argument-clang-compiler</key>
+    <name>-Winvalid-command-line-argument</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winvalid-constexpr-clang-compiler</key>
+    <name>-Winvalid-constexpr</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winvalid-iboutlet-clang-compiler</key>
+    <name>-Winvalid-iboutlet</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winvalid-initializer-from-system-header-clang-compiler</key>
+    <name>-Winvalid-initializer-from-system-header</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winvalid-noreturn-clang-compiler</key>
+    <name>-Winvalid-noreturn</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winvalid-offsetof-clang-compiler</key>
+    <name>-Winvalid-offsetof</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winvalid-or-nonexistent-directory-clang-compiler</key>
+    <name>-Winvalid-or-nonexistent-directory</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winvalid-partial-specialization-clang-compiler</key>
+    <name>-Winvalid-partial-specialization</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winvalid-pch-clang-compiler</key>
+    <name>-Winvalid-pch</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winvalid-pp-token-clang-compiler</key>
+    <name>-Winvalid-pp-token</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winvalid-source-encoding-clang-compiler</key>
+    <name>-Winvalid-source-encoding</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Winvalid-token-paste-clang-compiler</key>
+    <name>-Winvalid-token-paste</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wjump-seh-finally-clang-compiler</key>
+    <name>-Wjump-seh-finally</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wkeyword-compat-clang-compiler</key>
+    <name>-Wkeyword-compat</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wkeyword-macro-clang-compiler</key>
+    <name>-Wkeyword-macro</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wknr-promoted-parameter-clang-compiler</key>
+    <name>-Wknr-promoted-parameter</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wlanguage-extension-token-clang-compiler</key>
+    <name>-Wlanguage-extension-token</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wlarge-by-value-copy-clang-compiler</key>
+    <name>-Wlarge-by-value-copy</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wliblto-clang-compiler</key>
+    <name>-Wliblto</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wliteral-conversion-clang-compiler</key>
+    <name>-Wliteral-conversion</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wliteral-range-clang-compiler</key>
+    <name>-Wliteral-range</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wlocal-type-template-args-clang-compiler</key>
+    <name>-Wlocal-type-template-args</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wlogical-not-parentheses-clang-compiler</key>
+    <name>-Wlogical-not-parentheses</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wlogical-op-parentheses-clang-compiler</key>
+    <name>-Wlogical-op-parentheses</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wlong-long-clang-compiler</key>
+    <name>-Wlong-long</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wloop-analysis-clang-compiler</key>
+    <name>-Wloop-analysis</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmacro-redefined-clang-compiler</key>
+    <name>-Wmacro-redefined</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmain-clang-compiler</key>
+    <name>-Wmain</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmain-return-type-clang-compiler</key>
+    <name>-Wmain-return-type</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmalformed-warning-check-clang-compiler</key>
+    <name>-Wmalformed-warning-check</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmany-braces-around-scalar-init-clang-compiler</key>
+    <name>-Wmany-braces-around-scalar-init</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmax-unsigned-zero-clang-compiler</key>
+    <name>-Wmax-unsigned-zero</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmemsize-comparison-clang-compiler</key>
+    <name>-Wmemsize-comparison</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmethod-signatures-clang-compiler</key>
+    <name>-Wmethod-signatures</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-clang-compiler</key>
+    <name>-Wmicrosoft</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-anon-tag-clang-compiler</key>
+    <name>-Wmicrosoft-anon-tag</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-cast-clang-compiler</key>
+    <name>-Wmicrosoft-cast</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-charize-clang-compiler</key>
+    <name>-Wmicrosoft-charize</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-comment-paste-clang-compiler</key>
+    <name>-Wmicrosoft-comment-paste</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-const-init-clang-compiler</key>
+    <name>-Wmicrosoft-const-init</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-cpp-macro-clang-compiler</key>
+    <name>-Wmicrosoft-cpp-macro</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-default-arg-redefinition-clang-compiler</key>
+    <name>-Wmicrosoft-default-arg-redefinition</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-end-of-file-clang-compiler</key>
+    <name>-Wmicrosoft-end-of-file</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-enum-forward-reference-clang-compiler</key>
+    <name>-Wmicrosoft-enum-forward-reference</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-enum-value-clang-compiler</key>
+    <name>-Wmicrosoft-enum-value</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-exception-spec-clang-compiler</key>
+    <name>-Wmicrosoft-exception-spec</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-exists-clang-compiler</key>
+    <name>-Wmicrosoft-exists</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-explicit-constructor-call-clang-compiler</key>
+    <name>-Wmicrosoft-explicit-constructor-call</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-extra-qualification-clang-compiler</key>
+    <name>-Wmicrosoft-extra-qualification</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-fixed-enum-clang-compiler</key>
+    <name>-Wmicrosoft-fixed-enum</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-flexible-array-clang-compiler</key>
+    <name>-Wmicrosoft-flexible-array</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-goto-clang-compiler</key>
+    <name>-Wmicrosoft-goto</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-include-clang-compiler</key>
+    <name>-Wmicrosoft-include</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-mutable-reference-clang-compiler</key>
+    <name>-Wmicrosoft-mutable-reference</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-pure-definition-clang-compiler</key>
+    <name>-Wmicrosoft-pure-definition</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-redeclare-static-clang-compiler</key>
+    <name>-Wmicrosoft-redeclare-static</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-sealed-clang-compiler</key>
+    <name>-Wmicrosoft-sealed</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-template-clang-compiler</key>
+    <name>-Wmicrosoft-template</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-union-member-reference-clang-compiler</key>
+    <name>-Wmicrosoft-union-member-reference</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-unqualified-friend-clang-compiler</key>
+    <name>-Wmicrosoft-unqualified-friend</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-using-decl-clang-compiler</key>
+    <name>-Wmicrosoft-using-decl</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmicrosoft-void-pseudo-dtor-clang-compiler</key>
+    <name>-Wmicrosoft-void-pseudo-dtor</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmismatched-new-delete-clang-compiler</key>
+    <name>-Wmismatched-new-delete</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmismatched-parameter-types-clang-compiler</key>
+    <name>-Wmismatched-parameter-types</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmismatched-return-types-clang-compiler</key>
+    <name>-Wmismatched-return-types</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmismatched-tags-clang-compiler</key>
+    <name>-Wmismatched-tags</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmissing-braces-clang-compiler</key>
+    <name>-Wmissing-braces</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmissing-declarations-clang-compiler</key>
+    <name>-Wmissing-declarations</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmissing-exception-spec-clang-compiler</key>
+    <name>-Wmissing-exception-spec</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmissing-field-initializers-clang-compiler</key>
+    <name>-Wmissing-field-initializers</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmissing-format-attribute-clang-compiler</key>
+    <name>-Wmissing-format-attribute</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmissing-include-dirs-clang-compiler</key>
+    <name>-Wmissing-include-dirs</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmissing-method-return-type-clang-compiler</key>
+    <name>-Wmissing-method-return-type</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmissing-noreturn-clang-compiler</key>
+    <name>-Wmissing-noreturn</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmissing-prototype-for-cc-clang-compiler</key>
+    <name>-Wmissing-prototype-for-cc</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmissing-prototypes-clang-compiler</key>
+    <name>-Wmissing-prototypes</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmissing-selector-name-clang-compiler</key>
+    <name>-Wmissing-selector-name</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmissing-sysroot-clang-compiler</key>
+    <name>-Wmissing-sysroot</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmissing-variable-declarations-clang-compiler</key>
+    <name>-Wmissing-variable-declarations</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Rmodule-build-clang-compiler</key>
+    <name>-Rmodule-build</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmodule-conflict-clang-compiler</key>
+    <name>-Wmodule-conflict</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmodule-file-config-mismatch-clang-compiler</key>
+    <name>-Wmodule-file-config-mismatch</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmodule-file-extension-clang-compiler</key>
+    <name>-Wmodule-file-extension</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmodule-import-in-extern-c-clang-compiler</key>
+    <name>-Wmodule-import-in-extern-c</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmodules-ambiguous-internal-linkage-clang-compiler</key>
+    <name>-Wmodules-ambiguous-internal-linkage</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmodules-import-nested-redundant-clang-compiler</key>
+    <name>-Wmodules-import-nested-redundant</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmost-clang-compiler</key>
+    <name>-Wmost</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmove-clang-compiler</key>
+    <name>-Wmove</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmsvc-include-clang-compiler</key>
+    <name>-Wmsvc-include</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmsvc-not-found-clang-compiler</key>
+    <name>-Wmsvc-not-found</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmultichar-clang-compiler</key>
+    <name>-Wmultichar</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wmultiple-move-vbase-clang-compiler</key>
+    <name>-Wmultiple-move-vbase</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnarrowing-clang-compiler</key>
+    <name>-Wnarrowing</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnested-anon-types-clang-compiler</key>
+    <name>-Wnested-anon-types</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnested-externs-clang-compiler</key>
+    <name>-Wnested-externs</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnew-returns-null-clang-compiler</key>
+    <name>-Wnew-returns-null</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnewline-eof-clang-compiler</key>
+    <name>-Wnewline-eof</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnon-gcc-clang-compiler</key>
+    <name>-Wnon-gcc</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnon-literal-null-conversion-clang-compiler</key>
+    <name>-Wnon-literal-null-conversion</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnon-modular-include-in-framework-module-clang-compiler</key>
+    <name>-Wnon-modular-include-in-framework-module</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnon-modular-include-in-module-clang-compiler</key>
+    <name>-Wnon-modular-include-in-module</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnon-pod-varargs-clang-compiler</key>
+    <name>-Wnon-pod-varargs</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnon-virtual-dtor-clang-compiler</key>
+    <name>-Wnon-virtual-dtor</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnonnull-clang-compiler</key>
+    <name>-Wnonnull</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnonportable-cfstrings-clang-compiler</key>
+    <name>-Wnonportable-cfstrings</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnonportable-include-path-clang-compiler</key>
+    <name>-Wnonportable-include-path</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnonportable-system-include-path-clang-compiler</key>
+    <name>-Wnonportable-system-include-path</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnonportable-vector-initialization-clang-compiler</key>
+    <name>-Wnonportable-vector-initialization</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnull-arithmetic-clang-compiler</key>
+    <name>-Wnull-arithmetic</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnull-character-clang-compiler</key>
+    <name>-Wnull-character</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnull-conversion-clang-compiler</key>
+    <name>-Wnull-conversion</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnull-dereference-clang-compiler</key>
+    <name>-Wnull-dereference</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnullability-clang-compiler</key>
+    <name>-Wnullability</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnullability-completeness-clang-compiler</key>
+    <name>-Wnullability-completeness</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnullability-completeness-on-arrays-clang-compiler</key>
+    <name>-Wnullability-completeness-on-arrays</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnullability-declspec-clang-compiler</key>
+    <name>-Wnullability-declspec</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnullability-extension-clang-compiler</key>
+    <name>-Wnullability-extension</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnullability-inferred-on-nested-type-clang-compiler</key>
+    <name>-Wnullability-inferred-on-nested-type</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wnullable-to-nonnull-conversion-clang-compiler</key>
+    <name>-Wnullable-to-nonnull-conversion</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-autosynthesis-property-ivar-name-match-clang-compiler</key>
+    <name>-Wobjc-autosynthesis-property-ivar-name-match</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-circular-container-clang-compiler</key>
+    <name>-Wobjc-circular-container</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-cocoa-api-clang-compiler</key>
+    <name>-Wobjc-cocoa-api</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-designated-initializers-clang-compiler</key>
+    <name>-Wobjc-designated-initializers</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-forward-class-redefinition-clang-compiler</key>
+    <name>-Wobjc-forward-class-redefinition</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-interface-ivars-clang-compiler</key>
+    <name>-Wobjc-interface-ivars</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-literal-compare-clang-compiler</key>
+    <name>-Wobjc-literal-compare</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-literal-conversion-clang-compiler</key>
+    <name>-Wobjc-literal-conversion</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-macro-redefinition-clang-compiler</key>
+    <name>-Wobjc-macro-redefinition</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-method-access-clang-compiler</key>
+    <name>-Wobjc-method-access</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-missing-property-synthesis-clang-compiler</key>
+    <name>-Wobjc-missing-property-synthesis</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-missing-super-calls-clang-compiler</key>
+    <name>-Wobjc-missing-super-calls</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-multiple-method-names-clang-compiler</key>
+    <name>-Wobjc-multiple-method-names</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-noncopy-retain-block-property-clang-compiler</key>
+    <name>-Wobjc-noncopy-retain-block-property</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-nonunified-exceptions-clang-compiler</key>
+    <name>-Wobjc-nonunified-exceptions</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-property-implementation-clang-compiler</key>
+    <name>-Wobjc-property-implementation</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-property-implicit-mismatch-clang-compiler</key>
+    <name>-Wobjc-property-implicit-mismatch</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-property-matches-cocoa-ownership-rule-clang-compiler</key>
+    <name>-Wobjc-property-matches-cocoa-ownership-rule</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-property-no-attribute-clang-compiler</key>
+    <name>-Wobjc-property-no-attribute</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-property-synthesis-clang-compiler</key>
+    <name>-Wobjc-property-synthesis</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-protocol-method-implementation-clang-compiler</key>
+    <name>-Wobjc-protocol-method-implementation</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-protocol-property-synthesis-clang-compiler</key>
+    <name>-Wobjc-protocol-property-synthesis</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-protocol-qualifiers-clang-compiler</key>
+    <name>-Wobjc-protocol-qualifiers</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-readonly-with-setter-property-clang-compiler</key>
+    <name>-Wobjc-readonly-with-setter-property</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-redundant-api-use-clang-compiler</key>
+    <name>-Wobjc-redundant-api-use</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-redundant-literal-use-clang-compiler</key>
+    <name>-Wobjc-redundant-literal-use</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-root-class-clang-compiler</key>
+    <name>-Wobjc-root-class</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-string-compare-clang-compiler</key>
+    <name>-Wobjc-string-compare</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-string-concatenation-clang-compiler</key>
+    <name>-Wobjc-string-concatenation</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wobjc-unsafe-perform-selector-clang-compiler</key>
+    <name>-Wobjc-unsafe-perform-selector</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wodr-clang-compiler</key>
+    <name>-Wodr</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wold-style-cast-clang-compiler</key>
+    <name>-Wold-style-cast</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wold-style-definition-clang-compiler</key>
+    <name>-Wold-style-definition</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wopencl-unsupported-rgba-clang-compiler</key>
+    <name>-Wopencl-unsupported-rgba</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wopenmp-clauses-clang-compiler</key>
+    <name>-Wopenmp-clauses</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wopenmp-loop-form-clang-compiler</key>
+    <name>-Wopenmp-loop-form</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wopenmp-target-clang-compiler</key>
+    <name>-Wopenmp-target</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Woption-ignored-clang-compiler</key>
+    <name>-Woption-ignored</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wout-of-line-declaration-clang-compiler</key>
+    <name>-Wout-of-line-declaration</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wover-aligned-clang-compiler</key>
+    <name>-Wover-aligned</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Woverflow-clang-compiler</key>
+    <name>-Woverflow</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Woverlength-strings-clang-compiler</key>
+    <name>-Woverlength-strings</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Woverloaded-shift-op-parentheses-clang-compiler</key>
+    <name>-Woverloaded-shift-op-parentheses</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Woverloaded-virtual-clang-compiler</key>
+    <name>-Woverloaded-virtual</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Woverride-module-clang-compiler</key>
+    <name>-Woverride-module</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Woverriding-method-mismatch-clang-compiler</key>
+    <name>-Woverriding-method-mismatch</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Woverriding-t-option-clang-compiler</key>
+    <name>-Woverriding-t-option</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wpacked-clang-compiler</key>
+    <name>-Wpacked</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wpadded-clang-compiler</key>
+    <name>-Wpadded</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wparentheses-clang-compiler</key>
+    <name>-Wparentheses</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wparentheses-equality-clang-compiler</key>
+    <name>-Wparentheses-equality</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wpartial-availability-clang-compiler</key>
+    <name>-Wpartial-availability</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Rpass-clang-compiler</key>
+    <name>-Rpass</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Rpass-analysis-clang-compiler</key>
+    <name>-Rpass-analysis</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wpass-failed-clang-compiler</key>
+    <name>-Wpass-failed</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Rpass-missed-clang-compiler</key>
+    <name>-Rpass-missed</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wpch-date-time-clang-compiler</key>
+    <name>-Wpch-date-time</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wpedantic-clang-compiler</key>
+    <name>-Wpedantic</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wpedantic-core-features-clang-compiler</key>
+    <name>-Wpedantic-core-features</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wpessimizing-move-clang-compiler</key>
+    <name>-Wpessimizing-move</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wpointer-arith-clang-compiler</key>
+    <name>-Wpointer-arith</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wpointer-bool-conversion-clang-compiler</key>
+    <name>-Wpointer-bool-conversion</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wpointer-sign-clang-compiler</key>
+    <name>-Wpointer-sign</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wpointer-to-int-cast-clang-compiler</key>
+    <name>-Wpointer-to-int-cast</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wpointer-type-mismatch-clang-compiler</key>
+    <name>-Wpointer-type-mismatch</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wpotentially-evaluated-expression-clang-compiler</key>
+    <name>-Wpotentially-evaluated-expression</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wpragma-once-outside-header-clang-compiler</key>
+    <name>-Wpragma-once-outside-header</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wpragma-system-header-outside-header-clang-compiler</key>
+    <name>-Wpragma-system-header-outside-header</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wpragmas-clang-compiler</key>
+    <name>-Wpragmas</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wpredefined-identifier-outside-function-clang-compiler</key>
+    <name>-Wpredefined-identifier-outside-function</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wprivate-extern-clang-compiler</key>
+    <name>-Wprivate-extern</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wprivate-header-clang-compiler</key>
+    <name>-Wprivate-header</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wprivate-module-clang-compiler</key>
+    <name>-Wprivate-module</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wprofile-instr-out-of-date-clang-compiler</key>
+    <name>-Wprofile-instr-out-of-date</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wprofile-instr-unprofiled-clang-compiler</key>
+    <name>-Wprofile-instr-unprofiled</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wproperty-access-dot-syntax-clang-compiler</key>
+    <name>-Wproperty-access-dot-syntax</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wproperty-attribute-mismatch-clang-compiler</key>
+    <name>-Wproperty-attribute-mismatch</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wprotocol-clang-compiler</key>
+    <name>-Wprotocol</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wprotocol-property-synthesis-ambiguity-clang-compiler</key>
+    <name>-Wprotocol-property-synthesis-ambiguity</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wqualified-void-return-type-clang-compiler</key>
+    <name>-Wqualified-void-return-type</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wrange-loop-analysis-clang-compiler</key>
+    <name>-Wrange-loop-analysis</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wreadonly-iboutlet-property-clang-compiler</key>
+    <name>-Wreadonly-iboutlet-property</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wreceiver-expr-clang-compiler</key>
+    <name>-Wreceiver-expr</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wreceiver-forward-class-clang-compiler</key>
+    <name>-Wreceiver-forward-class</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wredeclared-class-member-clang-compiler</key>
+    <name>-Wredeclared-class-member</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wredundant-decls-clang-compiler</key>
+    <name>-Wredundant-decls</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wredundant-move-clang-compiler</key>
+    <name>-Wredundant-move</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wregister-clang-compiler</key>
+    <name>-Wregister</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wreinterpret-base-class-clang-compiler</key>
+    <name>-Wreinterpret-base-class</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Rremark-backend-plugin-clang-compiler</key>
+    <name>-Rremark-backend-plugin</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wreorder-clang-compiler</key>
+    <name>-Wreorder</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wrequires-super-attribute-clang-compiler</key>
+    <name>-Wrequires-super-attribute</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wreserved-id-macro-clang-compiler</key>
+    <name>-Wreserved-id-macro</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wreserved-user-defined-literal-clang-compiler</key>
+    <name>-Wreserved-user-defined-literal</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wretained-language-linkage-clang-compiler</key>
+    <name>-Wretained-language-linkage</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wreturn-stack-address-clang-compiler</key>
+    <name>-Wreturn-stack-address</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wreturn-type-clang-compiler</key>
+    <name>-Wreturn-type</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wreturn-type-c-linkage-clang-compiler</key>
+    <name>-Wreturn-type-c-linkage</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wrtti-for-exceptions-clang-compiler</key>
+    <name>-Wrtti-for-exceptions</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Rsanitize-address-clang-compiler</key>
+    <name>-Rsanitize-address</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wsection-clang-compiler</key>
+    <name>-Wsection</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wselector-clang-compiler</key>
+    <name>-Wselector</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wselector-type-mismatch-clang-compiler</key>
+    <name>-Wselector-type-mismatch</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wself-assign-clang-compiler</key>
+    <name>-Wself-assign</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wself-assign-field-clang-compiler</key>
+    <name>-Wself-assign-field</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wself-move-clang-compiler</key>
+    <name>-Wself-move</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wsemicolon-before-method-body-clang-compiler</key>
+    <name>-Wsemicolon-before-method-body</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wsentinel-clang-compiler</key>
+    <name>-Wsentinel</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wsequence-point-clang-compiler</key>
+    <name>-Wsequence-point</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wserialized-diagnostics-clang-compiler</key>
+    <name>-Wserialized-diagnostics</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wshadow-clang-compiler</key>
+    <name>-Wshadow</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wshadow-all-clang-compiler</key>
+    <name>-Wshadow-all</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wshadow-field-clang-compiler</key>
+    <name>-Wshadow-field</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wshadow-field-in-constructor-clang-compiler</key>
+    <name>-Wshadow-field-in-constructor</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wshadow-field-in-constructor-modified-clang-compiler</key>
+    <name>-Wshadow-field-in-constructor-modified</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wshadow-ivar-clang-compiler</key>
+    <name>-Wshadow-ivar</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wshadow-uncaptured-local-clang-compiler</key>
+    <name>-Wshadow-uncaptured-local</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wshift-count-negative-clang-compiler</key>
+    <name>-Wshift-count-negative</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wshift-count-overflow-clang-compiler</key>
+    <name>-Wshift-count-overflow</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wshift-negative-value-clang-compiler</key>
+    <name>-Wshift-negative-value</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wshift-op-parentheses-clang-compiler</key>
+    <name>-Wshift-op-parentheses</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wshift-overflow-clang-compiler</key>
+    <name>-Wshift-overflow</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wshift-sign-overflow-clang-compiler</key>
+    <name>-Wshift-sign-overflow</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wshorten-64-to-32-clang-compiler</key>
+    <name>-Wshorten-64-to-32</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wsign-compare-clang-compiler</key>
+    <name>-Wsign-compare</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wsign-conversion-clang-compiler</key>
+    <name>-Wsign-conversion</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wsign-promo-clang-compiler</key>
+    <name>-Wsign-promo</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wsigned-enum-bitfield-clang-compiler</key>
+    <name>-Wsigned-enum-bitfield</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wsizeof-array-argument-clang-compiler</key>
+    <name>-Wsizeof-array-argument</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wsizeof-array-decay-clang-compiler</key>
+    <name>-Wsizeof-array-decay</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wsizeof-pointer-memaccess-clang-compiler</key>
+    <name>-Wsizeof-pointer-memaccess</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wslash-u-filename-clang-compiler</key>
+    <name>-Wslash-u-filename</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wsometimes-uninitialized-clang-compiler</key>
+    <name>-Wsometimes-uninitialized</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wsource-uses-openmp-clang-compiler</key>
+    <name>-Wsource-uses-openmp</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wspir-compat-clang-compiler</key>
+    <name>-Wspir-compat</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstack-protector-clang-compiler</key>
+    <name>-Wstack-protector</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstatic-float-init-clang-compiler</key>
+    <name>-Wstatic-float-init</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstatic-in-inline-clang-compiler</key>
+    <name>-Wstatic-in-inline</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstatic-inline-explicit-instantiation-clang-compiler</key>
+    <name>-Wstatic-inline-explicit-instantiation</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstatic-local-in-inline-clang-compiler</key>
+    <name>-Wstatic-local-in-inline</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstatic-self-init-clang-compiler</key>
+    <name>-Wstatic-self-init</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstrict-aliasing-clang-compiler</key>
+    <name>-Wstrict-aliasing</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstrict-aliasing=0-clang-compiler</key>
+    <name>-Wstrict-aliasing=0</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstrict-aliasing=1-clang-compiler</key>
+    <name>-Wstrict-aliasing=1</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstrict-aliasing=2-clang-compiler</key>
+    <name>-Wstrict-aliasing=2</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstrict-overflow-clang-compiler</key>
+    <name>-Wstrict-overflow</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstrict-overflow=0-clang-compiler</key>
+    <name>-Wstrict-overflow=0</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstrict-overflow=1-clang-compiler</key>
+    <name>-Wstrict-overflow=1</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstrict-overflow=2-clang-compiler</key>
+    <name>-Wstrict-overflow=2</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstrict-overflow=3-clang-compiler</key>
+    <name>-Wstrict-overflow=3</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstrict-overflow=4-clang-compiler</key>
+    <name>-Wstrict-overflow=4</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstrict-overflow=5-clang-compiler</key>
+    <name>-Wstrict-overflow=5</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstrict-prototypes-clang-compiler</key>
+    <name>-Wstrict-prototypes</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstrict-prototypes-clang-compiler</key>
+    <name>-Wstrict-prototypes</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstrict-selector-match-clang-compiler</key>
+    <name>-Wstrict-selector-match</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstring-compare-clang-compiler</key>
+    <name>-Wstring-compare</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstring-conversion-clang-compiler</key>
+    <name>-Wstring-conversion</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstring-plus-char-clang-compiler</key>
+    <name>-Wstring-plus-char</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstring-plus-int-clang-compiler</key>
+    <name>-Wstring-plus-int</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstrlcpy-strlcat-size-clang-compiler</key>
+    <name>-Wstrlcpy-strlcat-size</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wstrncat-size-clang-compiler</key>
+    <name>-Wstrncat-size</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wsuper-class-method-mismatch-clang-compiler</key>
+    <name>-Wsuper-class-method-mismatch</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wswitch-clang-compiler</key>
+    <name>-Wswitch</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wswitch-bool-clang-compiler</key>
+    <name>-Wswitch-bool</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wswitch-default-clang-compiler</key>
+    <name>-Wswitch-default</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wswitch-enum-clang-compiler</key>
+    <name>-Wswitch-enum</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wsync-fetch-and-nand-semantics-changed-clang-compiler</key>
+    <name>-Wsync-fetch-and-nand-semantics-changed</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wsynth-clang-compiler</key>
+    <name>-Wsynth</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wtautological-compare-clang-compiler</key>
+    <name>-Wtautological-compare</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wtautological-constant-out-of-range-compare-clang-compiler</key>
+    <name>-Wtautological-constant-out-of-range-compare</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wtautological-overlap-compare-clang-compiler</key>
+    <name>-Wtautological-overlap-compare</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wtautological-pointer-compare-clang-compiler</key>
+    <name>-Wtautological-pointer-compare</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wtautological-undefined-compare-clang-compiler</key>
+    <name>-Wtautological-undefined-compare</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wtentative-definition-incomplete-type-clang-compiler</key>
+    <name>-Wtentative-definition-incomplete-type</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wthread-safety-clang-compiler</key>
+    <name>-Wthread-safety</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wthread-safety-analysis-clang-compiler</key>
+    <name>-Wthread-safety-analysis</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wthread-safety-attributes-clang-compiler</key>
+    <name>-Wthread-safety-attributes</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wthread-safety-beta-clang-compiler</key>
+    <name>-Wthread-safety-beta</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wthread-safety-negative-clang-compiler</key>
+    <name>-Wthread-safety-negative</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wthread-safety-precise-clang-compiler</key>
+    <name>-Wthread-safety-precise</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wthread-safety-reference-clang-compiler</key>
+    <name>-Wthread-safety-reference</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wthread-safety-verbose-clang-compiler</key>
+    <name>-Wthread-safety-verbose</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wtrigraphs-clang-compiler</key>
+    <name>-Wtrigraphs</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wtype-limits-clang-compiler</key>
+    <name>-Wtype-limits</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wtype-safety-clang-compiler</key>
+    <name>-Wtype-safety</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wtypedef-redefinition-clang-compiler</key>
+    <name>-Wtypedef-redefinition</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wtypename-missing-clang-compiler</key>
+    <name>-Wtypename-missing</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunable-to-open-stats-file-clang-compiler</key>
+    <name>-Wunable-to-open-stats-file</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunavailable-declarations-clang-compiler</key>
+    <name>-Wunavailable-declarations</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wundeclared-selector-clang-compiler</key>
+    <name>-Wundeclared-selector</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wundef-clang-compiler</key>
+    <name>-Wundef</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wundefined-bool-conversion-clang-compiler</key>
+    <name>-Wundefined-bool-conversion</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wundefined-func-template-clang-compiler</key>
+    <name>-Wundefined-func-template</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wundefined-inline-clang-compiler</key>
+    <name>-Wundefined-inline</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wundefined-internal-clang-compiler</key>
+    <name>-Wundefined-internal</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wundefined-reinterpret-cast-clang-compiler</key>
+    <name>-Wundefined-reinterpret-cast</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wundefined-var-template-clang-compiler</key>
+    <name>-Wundefined-var-template</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunevaluated-expression-clang-compiler</key>
+    <name>-Wunevaluated-expression</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunguarded-availability-clang-compiler</key>
+    <name>-Wunguarded-availability</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunicode-clang-compiler</key>
+    <name>-Wunicode</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunicode-whitespace-clang-compiler</key>
+    <name>-Wunicode-whitespace</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wuninitialized-clang-compiler</key>
+    <name>-Wuninitialized</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunknown-argument-clang-compiler</key>
+    <name>-Wunknown-argument</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunknown-attributes-clang-compiler</key>
+    <name>-Wunknown-attributes</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunknown-escape-sequence-clang-compiler</key>
+    <name>-Wunknown-escape-sequence</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunknown-pragmas-clang-compiler</key>
+    <name>-Wunknown-pragmas</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunknown-sanitizers-clang-compiler</key>
+    <name>-Wunknown-sanitizers</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunknown-warning-option-clang-compiler</key>
+    <name>-Wunknown-warning-option</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunnamed-type-template-args-clang-compiler</key>
+    <name>-Wunnamed-type-template-args</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunneeded-internal-declaration-clang-compiler</key>
+    <name>-Wunneeded-internal-declaration</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunneeded-member-function-clang-compiler</key>
+    <name>-Wunneeded-member-function</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunreachable-code-clang-compiler</key>
+    <name>-Wunreachable-code</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunreachable-code-aggressive-clang-compiler</key>
+    <name>-Wunreachable-code-aggressive</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunreachable-code-break-clang-compiler</key>
+    <name>-Wunreachable-code-break</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunreachable-code-loop-increment-clang-compiler</key>
+    <name>-Wunreachable-code-loop-increment</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunreachable-code-return-clang-compiler</key>
+    <name>-Wunreachable-code-return</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunsequenced-clang-compiler</key>
+    <name>-Wunsequenced</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunsupported-cb-clang-compiler</key>
+    <name>-Wunsupported-cb</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunsupported-dll-base-class-template-clang-compiler</key>
+    <name>-Wunsupported-dll-base-class-template</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunsupported-friend-clang-compiler</key>
+    <name>-Wunsupported-friend</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunsupported-nan-clang-compiler</key>
+    <name>-Wunsupported-nan</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunsupported-visibility-clang-compiler</key>
+    <name>-Wunsupported-visibility</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunusable-partial-specialization-clang-compiler</key>
+    <name>-Wunusable-partial-specialization</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunused-clang-compiler</key>
+    <name>-Wunused</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunused-argument-clang-compiler</key>
+    <name>-Wunused-argument</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunused-command-line-argument-clang-compiler</key>
+    <name>-Wunused-command-line-argument</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunused-comparison-clang-compiler</key>
+    <name>-Wunused-comparison</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunused-const-variable-clang-compiler</key>
+    <name>-Wunused-const-variable</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunused-exception-parameter-clang-compiler</key>
+    <name>-Wunused-exception-parameter</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunused-function-clang-compiler</key>
+    <name>-Wunused-function</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunused-getter-return-value-clang-compiler</key>
+    <name>-Wunused-getter-return-value</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunused-label-clang-compiler</key>
+    <name>-Wunused-label</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunused-lambda-capture-clang-compiler</key>
+    <name>-Wunused-lambda-capture</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunused-local-typedef-clang-compiler</key>
+    <name>-Wunused-local-typedef</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunused-local-typedefs-clang-compiler</key>
+    <name>-Wunused-local-typedefs</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunused-macros-clang-compiler</key>
+    <name>-Wunused-macros</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunused-member-function-clang-compiler</key>
+    <name>-Wunused-member-function</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunused-parameter-clang-compiler</key>
+    <name>-Wunused-parameter</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunused-private-field-clang-compiler</key>
+    <name>-Wunused-private-field</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunused-property-ivar-clang-compiler</key>
+    <name>-Wunused-property-ivar</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunused-result-clang-compiler</key>
+    <name>-Wunused-result</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunused-value-clang-compiler</key>
+    <name>-Wunused-value</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunused-variable-clang-compiler</key>
+    <name>-Wunused-variable</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wunused-volatile-lvalue-clang-compiler</key>
+    <name>-Wunused-volatile-lvalue</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wused-but-marked-unused-clang-compiler</key>
+    <name>-Wused-but-marked-unused</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wuser-defined-literals-clang-compiler</key>
+    <name>-Wuser-defined-literals</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wuser-defined-warnings-clang-compiler</key>
+    <name>-Wuser-defined-warnings</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wvarargs-clang-compiler</key>
+    <name>-Wvarargs</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wvariadic-macros-clang-compiler</key>
+    <name>-Wvariadic-macros</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wvec-elem-size-clang-compiler</key>
+    <name>-Wvec-elem-size</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wvector-conversion-clang-compiler</key>
+    <name>-Wvector-conversion</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wvector-conversions-clang-compiler</key>
+    <name>-Wvector-conversions</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wvexing-parse-clang-compiler</key>
+    <name>-Wvexing-parse</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wvisibility-clang-compiler</key>
+    <name>-Wvisibility</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wvla-clang-compiler</key>
+    <name>-Wvla</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wvla-extension-clang-compiler</key>
+    <name>-Wvla-extension</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wvoid-ptr-dereference-clang-compiler</key>
+    <name>-Wvoid-ptr-dereference</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wvolatile-register-var-clang-compiler</key>
+    <name>-Wvolatile-register-var</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wweak-template-vtables-clang-compiler</key>
+    <name>-Wweak-template-vtables</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wweak-vtables-clang-compiler</key>
+    <name>-Wweak-vtables</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wwritable-strings-clang-compiler</key>
+    <name>-Wwritable-strings</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wwrite-strings-clang-compiler</key>
+    <name>-Wwrite-strings</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+  <rule>
+    <key>-Wzero-length-array-clang-compiler</key>
+    <name>-Wzero-length-array</name>
+    <description>Clang compiler warning, message will contain additional description</description>
+    <severity>Minor</severity>
+    <type>BUG</type>
+  </rule>
+</rules>
