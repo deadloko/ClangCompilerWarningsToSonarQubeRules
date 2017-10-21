@@ -44,7 +44,7 @@ if __name__ == '__main__':
         rules_file.write('    <name>{}</name>\n'.format(warning))
         rules_file.write(
             '    <description>Clang compiler warning, message will contain additional description</description>\n')
-        rules_file.write('    <severity>Minor</severity>\n')
+        rules_file.write('    <severity>MINOR</severity>\n')
         rules_file.write('    <type>BUG</type>\n')
         rules_file.write('  </rule>\n')
 
