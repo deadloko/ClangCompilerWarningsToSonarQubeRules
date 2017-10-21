@@ -1,2 +1,2 @@
 # ClangCompilerWarningsToSonarQubeRules
-Automatic SonarQube rules generator.
+Automatic SonarQube rules generator for clang compiler.
