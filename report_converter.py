@@ -4,12 +4,14 @@ from xml.sax.saxutils import escape
 import re
 
 def ConvertDiagnosticLineToSonqarqube(item):
-    id, line, message, source_file = GetDiagnosticFieldsFromDiagnosticLine(item)
-    WriteDiagnosticFieldsToFile(id, line, message, source_file)
+    try:
+        id, line, message, source_file = GetDiagnosticFieldsFromDiagnosticLine(item)
+        WriteDiagnosticFieldsToFile(id, line, message, source_file)
+    except:
+        print 'Cant parse line {}'.format(item)
 
 
 def GetDiagnosticFieldsFromDiagnosticLine(item):
-    print item
     source_file = re.search('\/(.*?):', item).group(0).replace(':', '')
     line = re.search(':\d*:', item).group(0).replace(':', '')
     id = re.search('\[.*\]', item).group(0).replace('[', '').replace(']', '') + '-clang-compiler'
