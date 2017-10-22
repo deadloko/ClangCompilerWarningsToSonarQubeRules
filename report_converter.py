@@ -10,7 +10,7 @@ def ConvertDiagnosticLineToSonqarqube(item):
 
 def GetDiagnosticFieldsFromDiagnosticLine(item):
     print item
-    source_file = re.search('\/.*\..', item).group(0)
+    source_file = re.search('\/(.*?):', item).group(0).replace(':', '')
     line = re.search(':\d*:', item).group(0).replace(':', '')
     id = re.search('\[.*\]', item).group(0).replace('[', '').replace(']', '') + '-clang-compiler'
     message = re.search('warning: (.*)\[', item).group(0).replace('[', '').replace('warning: ', '')
